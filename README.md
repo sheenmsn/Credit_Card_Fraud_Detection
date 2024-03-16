@@ -1,4 +1,3 @@
-# Credit_Card_Fraud_Detection
 # FindDefault (Prediction of Credit Card fraud)
 
 ## Problem Statement:
@@ -6,7 +5,7 @@ A credit card is one of the most used financial products to make online purchase
 
 Credit card companies must be able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 
-## Introduction**:
+## Introduction:
 The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds (473 after removing duplicate rows) out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) accounts for 0.172% of all transactions.
 
 # Description of Design Choices
@@ -29,7 +28,7 @@ Evaluated models using key metrics such as accuracy, precision, recall, F1 score
 
 ## Performance Evaluation of the Model
 
-###Model Performance
+### Model Performance
 - **Logistic Regression** : Obtained a ROC AUC score of 94.19% after hyperparameter tuning.
 
 - **Random Forest Classifier**: Obtained an ROC AUC score of 91.53% after hyperparameter tuning.
