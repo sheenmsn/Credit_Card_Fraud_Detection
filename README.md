@@ -38,11 +38,13 @@ _pip install -r requirements.txt_
 
 ### Execution
 
-Ensure that the credit card transaction data is stored in a CSV file called csvcard.csv, which you put into your project directory.
+Ensure that the credit card transaction data is stored in a CSV file called creditcard.csv, which you put into your project directory.
 
 Run the main Python script:
 
 _python main.py_
+
+_%run C:/Users/user/Desktop/Project_Submit/main.py_ (if you saved the main.py file in your local disc. Replace the file path to where you stored the file)
 
 This script will load the data, preprocess it, train multiple machine learning models (Logistic Regression, Random Forest, AdaBoost, and CatBoost), evaluate their performance using the ROC AUC score, and print the best model and corresponding score. To process data, train models and evaluate performance, follow the prompts in this script.
 
