@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to develop a machine-learning model for the detection of fraud in credit card transactions. A dataset containing a range of credit card transaction characteristics, such as the number of transactions, time, and further relevant information is used to train this model.
+This project aims to develop a machine-learning model for detecting fraud in credit card transactions. A dataset containing a range of credit card transaction characteristics, such as the number of transactions, time, and further relevant information is used to train this model.
 
 ## Problem Statement:
 A credit card is one of the most used financial products to make online purchases and payments. Though Credit cards can be a convenient way to manage your finances, they can also be risky. Credit card fraud is the unauthorized use of someone else's credit card or credit card information to make purchases or withdraw cash.
@@ -26,8 +26,7 @@ The dataset contains transactions made by credit cards in September 2013 by Euro
 
 Clone the repository from GitHub:
 
-_git clone https://github.com/sheenmsn/Credit_Card_Fraud_Detection.git_
-           
+_git clone https://github.com/sheenmsn/Credit_Card_Fraud_Detection.git_           
 
 ### Install Dependencies
 
@@ -49,7 +48,7 @@ This script will load the data, preprocess it, train multiple machine learning m
 
 # Description of Design Choices
 
-## Data Preprocessing
+## 1. Data Preprocessing
 
 - **Handled missing values**: Checked for missing data and deleted duplicate rows. No missing values have been found, and a total of 1081 duplicate rows have been deleted.
 
@@ -59,15 +58,18 @@ This script will load the data, preprocess it, train multiple machine learning m
 
 - **Feature Engineering**: Created new features such as Hour from the Time feature to enhance the model performance.
 
-- **Model Selection and Hyperparameter Tuning**: Used various classification algorithms such as Logistic Regression, Random Forest, AdaBoost, and CatBoost have been used. 
+## 2.Model Selection and Hyperparameter Tuning:
 
-To improve the model's performance, GridSearchCV was used for hyperparameter adjustment.
+- Used various classification algorithms such as Logistic Regression, Random Forest, AdaBoost, and CatBoost have been used. 
 
-Evaluated models using key metrics such as accuracy, precision, recall, F1 score, and ROC AUC score.
+- To improve the model's performance, GridSearchCV was used for hyperparameter adjustment.
 
-## Performance Evaluation of the Model
+## 3.Performance Evaluation of the Model
+
+- Evaluated models using key metrics such as accuracy, precision, recall, F1 score, and ROC AUC score.
 
 ### Model Performance
+
 - **Logistic Regression** : Obtained a ROC AUC score of 94.19% after hyperparameter tuning.
 
 - **Random Forest Classifier**: Obtained an ROC AUC score of 91.53% after hyperparameter tuning.
@@ -76,23 +78,21 @@ Evaluated models using key metrics such as accuracy, precision, recall, F1 score
 
 - **CatBoost Classifier**: Obtained an ROC AUC score of 97.61% after hyperparameter tuning.
 
-## Comparison and Selection of Best Model**
-
 The CatBoost Classifier Obtained the highest ROC AUC score of 97.61% among all models. Hence, the CatBoost Classifier is selected as the best model for credit card fraud detection.
 
-# Discussion of Future Work
+## Discussion of Future Work
 
-## Potential Improvements
+### Potential Improvements
 
-- Feature Engineering: Additional exploration of feature engineering techniques to enhance model performance.
+- **Feature Engineering**: Additional exploration of feature engineering techniques to enhance model performance.
 
-- Advanced Algorithms: Exploring advanced algorithms like XGBoost, LightGBM, or neural networks. 
+- **Advanced Algorithms**: Exploring advanced algorithms like XGBoost, LightGBM, or neural networks. 
 
-- Real-time Monitoring: Implementation of the model into a real-time monitoring system for timely detection of fraudulent transactions.
+- **Real-time Monitoring**: Implementation of the model into a real-time monitoring system for timely detection of fraudulent transactions.
 
-- Regular Model Updates: Periodic re-training of the model with new data to adjust to changing fraud patterns.
+- **Regular Model Updates**: Periodic re-training of the model with new data to adjust to changing fraud patterns.
 
-# Benefits for the Company
+### Benefits for the Company
 
 - **Cost Savings**: This model helps to prevent financial losses resulting from fraud, by accurately identifying fraudulent transactions. This is to reimburse customers for illegal transactions and to mitigate potential legal and administrative penalties related to fraud cases. Overall, by reducing financial liabilities associated with fraud the model helps to reduce costs.
 
