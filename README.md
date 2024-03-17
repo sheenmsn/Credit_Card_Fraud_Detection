@@ -14,11 +14,11 @@ The dataset contains transactions made by credit cards in September 2013 by Euro
 
 ## Project Structure
 
-- ** main.py**: Python script that contains the code for data preprocessing, model training, evaluation, and saving of trained models.
+- **main.py** : Python script that contains the code for data preprocessing, model training, evaluation, and saving of trained models.
 
-- **requirements.txt**: File containing all dependencies needed to run this project.
+- **requirements.txt** : File containing all dependencies needed to run this project.
 
-- **README.md**: A file with an overview of the project, instructions, and other pertinent information
+- **README.md** : A file with an overview of the project, instructions, and other pertinent information
 
 ## Getting Started
 
@@ -26,13 +26,14 @@ The dataset contains transactions made by credit cards in September 2013 by Euro
 
 Clone the repository from GitHub:
 
-_git clone https://github.com/yourusername/credit-card-fraud-detection.git_
+_git clone https://github.com/sheenmsn/Credit_Card_Fraud_Detection.git_
+           
 
 ### Install Dependencies
 
 Navigate to the project directory and install the required packages:
 
-_ cd credit-card-fraud-detection _
+_cd Credit_Card_Fraud_Detection_
 
 _pip install -r requirements.txt_
 
