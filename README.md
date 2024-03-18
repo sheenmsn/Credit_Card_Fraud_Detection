@@ -96,12 +96,12 @@ The CatBoost Classifier Obtained the highest ROC AUC score of 97.61% among all m
 
 ### Benefits for the Company
 
-- **Cost Savings**: This model helps to prevent financial losses resulting from fraud, by accurately identifying fraudulent transactions. This is to reimburse customers for illegal transactions and to mitigate potential legal and administrative penalties related to fraud cases. Overall, by reducing financial liabilities associated with fraud the model helps to reduce costs.
+- **Cost Savings**: This model helps to prevent the financial losses incurred due to fraud. The financial losses may be as a result of compensations to customers as a result of unauthorized transactions and the legal and administrative penalties that may related due to fraud cases. Generally, it reduces the overall financial liabilities associated with fraud, hence cost reduction.
 
-- **Enhanced Customer Trust**: To strengthen customer trust and confidence in the company's services, efficient detection of fraud is important. The customers are reassured that their financial transactions are secure, leading to a higher level of satisfaction and loyalty. This will allow the company to attract and retain more customers, thereby improving its reputation and market position.
+- **Enhanced Customer Trust**: Fraud detection must be effective in order to increase customer confidence in the services provided by the company. In this way, customers will be assured of the security of their transactions and satisfaction with the company is going to increase. In order to increase its market position, the company will therefore be able to attract even more customers or keep existing ones.
 
-- **Reduced Operational Risks**: Fraudulent activities not only result in the company's financial position but also pose operational risks to the company. Such risks include damage to reputation, legislative scrutiny, and the disruption of operations. The company can proactively mitigate these risks and maintain operational resilience by implementing a robust model for detecting fraud.
+- **Reduced Operational Risks**: Any fraudulent activities not only compromise the company’s financial stability but also create operational risks. They can manifest through reputational damage, increased prosecutor and legislative scrutiny, and the disruption of operations. The company can reduce these risks and ensure operational sustainability through the establishment of an effective fraud-detecting model.
 
-- **Scalability and Adaptability**: To take into account the evolving needs and business environment of the company, the fraud detection model can be scaled and adapted. To ensure optimal performance, the model may be updated and refined as transaction volumes increase or new fraud patterns emerge. This scalability ensures that the company can effectively manage fraud risks regardless of its growth trajectory.
+- **Scalability and Adaptability**: Consideration should also be given to increasing and adapting to the evolving needs and business environment of the company. The model should be revised and improved as the amount of transactions grows in order to perform more efficiently or as new patterns of fraud arise. It means that fraud risks can be managed at any time when the company is growing or slowing down.
 
  
